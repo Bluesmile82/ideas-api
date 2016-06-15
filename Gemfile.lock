@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/mezuka/enum.git
+  revision: 8aee987a699c2a635d89f4c9e95c02dca828ee80
+  specs:
+    safe-enum (0.3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -167,6 +173,7 @@ DEPENDENCIES
   jquery-rails
   pg (~> 0.15)
   rails (= 4.2.6)
+  safe-enum!
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
