@@ -5,17 +5,17 @@ end
 admin = User.create( email: 'admin@test.com',
                      password: 'trycatch',
                      password_confirmation: 'trycatch',
-                     role_id: Role.find_by(name: RoleName.enum(:admin)))
+                     role_id: Role.find_by(name: RoleName.enum(:admin)).id)
 
 user = User.create( email: 'test@test.com',
                     password: 'trycatch',
                     password_confirmation: 'trycatch',
-                    role_id: Role.find_by(name: RoleName.enum(:user)))
+                    role_id: Role.find_by(name: RoleName.enum(:user)).id)
 
 guest = User.create( email: 'guest@test.com',
                      password: 'trycatch',
                      password_confirmation: 'trycatch',
-                     role_id: Role.find_by(name: RoleName.enum(:guest)))
+                     role_id: Role.find_by(name: RoleName.enum(:guest)).id)
 
 mindmap = Mindmap.create( title: "My mindmap",
                           user_id: user.id,
