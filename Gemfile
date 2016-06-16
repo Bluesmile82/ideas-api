@@ -12,6 +12,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'safe-enum', require: 'enum', github: 'mezuka/enum'
+gem 'devise_token_auth'
+gem 'omniauth'
 
 group :development, :test do
   gem 'byebug'
