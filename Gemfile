@@ -14,13 +14,18 @@ gem 'devise'
 gem 'safe-enum', require: 'enum', github: 'mezuka/enum'
 gem 'devise_token_auth'
 gem 'omniauth'
+gem 'figaro'
+gem 'rest-client'
+gem 'factory_girl_rails'
 
 group :development, :test do
+  gem 'awesome_print'
   gem 'byebug'
+  gem "rspec-rails"
+  gem 'faker'
 end
 
 group :development do
-  gem 'faker'
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
