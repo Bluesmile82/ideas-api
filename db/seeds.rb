@@ -7,7 +7,7 @@ admin = User.create( email: 'admin@test.com',
                      password_confirmation: 'trycatch',
                      role_id: Role.find_by(name: RoleName.enum(:admin)).id)
 
-user = User.create( email: 'test@test.com',
+user = User.create( email: 'user@test.com',
                     password: 'trycatch',
                     password_confirmation: 'trycatch',
                     role_id: Role.find_by(name: RoleName.enum(:user)).id)
