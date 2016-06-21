@@ -3,3 +3,4 @@ development:
 test:
   host: "localhost:3000"
 production:
+  host: "http://ideas-test-api.herokuapp.com/"
