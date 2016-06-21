@@ -7,10 +7,12 @@ module Api
 
       def index
         @mindmaps = Mindmap.all
+        render json: @mindmaps
       end
 
       def show
         @mindmap = Mindmap.find(params[:id])
+        render json: @mindmap
       end
 
       def create
