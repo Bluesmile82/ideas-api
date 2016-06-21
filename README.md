@@ -1,30 +1,30 @@
-== README
+#README
 This project is a standard rails API with basic authentication, user roles and tested with rspec
 
 Ruby version 2.3.0
 
-##Install
+###Install
 
-´git clone git@github.com:Bluesmile82/ideas-api.git´
+`git clone git@github.com:Bluesmile82/ideas-api.git`
 
-´cd ideas-api´
-´rake db:create db:migrate db:seed´
-´cp config/application-template.yml config/application.yml´
+`cd ideas-api`
+`rake db:create db:migrate db:seed`
+`cp config/application-template.yml config/application.yml`
 
 ##Usage
 
 
-# you can test the API with the following rake task
-´rake authenticate_and_test´
+You can test the API with the following rake task
+`rake authenticate_and_test`
 
-# and run the rspec tests
-´rspec´
+And run the rspec tests
+`rspec`
 
-# The routes have the following structure with basic authentication:
+The routes have the following structure with basic authentication:
 
 Index mindmaps:
 
-´http://admin:trycatch@localhost:3000/api/v1/mindmaps´
+`http://admin:trycatch@localhost:3000/api/v1/mindmaps`
 
 ...
 
