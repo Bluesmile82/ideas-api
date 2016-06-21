@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+ruby '2.3.0'
+gem 'rails_12factor', group: :production
+gem 'puma',           group: :production
 gem 'rails', '4.2.6'
 gem 'pg', '~> 0.15'
 gem 'rails-api'
@@ -13,6 +16,7 @@ gem 'omniauth'
 gem 'figaro'
 gem 'rest-client'
 gem 'factory_girl_rails'
+gem 'faker'
 
 group :test do
   gem 'database_cleaner'
@@ -22,7 +26,6 @@ group :development, :test do
   gem 'awesome_print'
   gem 'byebug'
   gem "rspec-rails"
-  gem 'faker'
 end
 
 group :development do
