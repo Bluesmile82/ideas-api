@@ -3,6 +3,12 @@ This project is a standard rails API with basic authentication, user roles and t
 
 Ruby version 2.3.0
 
+##Deployed app
+
+The api is live at:
+
+[http://ideas-test-api.herokuapp.com/]
+
 ###Install
 
 `git clone git@github.com:Bluesmile82/ideas-api.git`
