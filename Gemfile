@@ -17,6 +17,7 @@ gem 'figaro'
 gem 'rest-client'
 gem 'factory_girl_rails'
 gem 'faker'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :test do
   gem 'database_cleaner'
